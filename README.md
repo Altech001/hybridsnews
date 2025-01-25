@@ -122,3 +122,5 @@ For more inquires or support'
 - Real-time notifications
 
 Made with ❤️ by the Hybrids Group
+
+[Back to Top](#hybrids-news)
