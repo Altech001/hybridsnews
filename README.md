@@ -4,16 +4,16 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
 
 ## 📋Table of Contents
 
-- [🚀Features](#features)
-- [🔧Technology Stack](#technology-stack)
-- [📦Installation](#installation)
-- [📂Project Structure](#project-structure)
-- [💻Usage](#usage)
-- [🤝Contributing](#contributing)
-- [📜License](#license)
-- [🙏Acknowledgments](#acknowledgments)
-- [🆘Support](#support)
-- [🎯Future Enhancements](#future-enhancements)
+1. [Features](#features)
+2. [Technology Stack](#technology-stack)
+3. [Installation](#installation)
+4. [Project Structure](#project-structure)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
+9. [Support](#support)
+10. [Future Enhancements](#future-enhancements)
 
 ## 🚀Features
 
@@ -80,7 +80,7 @@ We welcome contributions to improve Hybrids News! To contribute:
     ```bash
     cd hybridsnews/
     ```
-
+    
 4. **Create a new branch:**
     ```bash
     git checkout -b feature-name
