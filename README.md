@@ -4,31 +4,32 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
 
 ## 📋Table of Contents
 
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Support](#support)
+1. [Features](#features)
+2. [Technology Stack](#technology-stack)
+3. [Installation](#installation)
+4. [Project Structure](#project-structure)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
+9. [Support](#support)
+10. [Future Enhancements](#future-enhancements)
 
-## 🚀 Features
+## 🚀Features
 
 - **Responsive Design**: Optimized for devices of all sizes.
 - **News Categories**: Dedicated pages for politics, sports, and more.
 - **Interactive Elements**: JavaScript-powered interactivity for enhanced user experience.
 - **Media Integration**: Incorporates images, icons, and other visual elements for better engagement.
 
-## 🛠️ Technology Stack
+## 🔧Technology Stack
 
 - **HTML5**: Semantic structure for content.
 - **CSS3**: Modular and responsive styling.
 - **JavaScript**: Dynamic interactivity and functionality.
 - **Version Control**: Git for tracking changes and collaboration.
 
-## 📦 Installation
+## 📦Installation
 
 1. Clone the repository:
    ```bash
@@ -41,30 +42,30 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
     ```
 3. Open `index.html` in your browser to view the application.
 
-## 🗂️ Project Structure
+## 📂Project Structure
 
 ```
-.
-├── README.md          # Project documentation
-├── LICENSE            # Apache License 2.0
-├── index.css          # Main stylesheet
-├── index.html         # Main HTML file
-├── page1.js           # JavaScript for interactivity
-├── politics.css       # Styles for politics page
-├── politics.html      # Politics page content
-├── script.js          # Additional JavaScript
-├── sports.css         # Styles for sports page
-├── sports.html        # Sports page content
-└── images/            # Assets directory
+└──hybridsnews/
+    ├── README.md          # Project documentation
+    ├── LICENSE            # Apache License 2.0
+    ├── index.css          # Main stylesheet
+    ├── index.html         # Main HTML file
+    ├── page1.js           # JavaScript for interactivity
+    ├── politics.css       # Styles for politics page
+    ├── politics.html      # Politics page content
+    ├── script.js          # Additional JavaScript
+    ├── sports.css         # Styles for sports page
+    ├── sports.html        # Sports page content
+    └── images/            # Assets directory
 ```
 
-## 💻 Usage
+## 💻Usage
 
 1. Navigate through the categories by clicking the relevant links on the homepage.
 2. Explore individual sections such as politics and sports for tailored content.
 3. Experience the responsive design by resizing the browser window or viewing on different devices.
 
-## 🤝 Contributing
+## 🤝Contributing
 
 We welcome contributions to improve Hybrids News! To contribute:
 
@@ -79,7 +80,7 @@ We welcome contributions to improve Hybrids News! To contribute:
     ```bash
     cd hybridsnews/
     ```
-
+    
 4. **Create a new branch:**
     ```bash
     git checkout -b feature-name
@@ -98,22 +99,22 @@ We welcome contributions to improve Hybrids News! To contribute:
 
 7. Open a pull request and describe the changes you made.
 
-## 📜 License
+## 📜License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 🙏Acknowledgments
 
 - The Hybrids Group development team
 - Open source community
 - Our active reader base
 
-## 🆘 Support
+## 🆘Support
 
 For more inquires or support'
 - Create an [Issue](https://github.com/Altech001/hybridsnews/issues)
 
-## 🎯 Future Enhancements
+## 🎯Future Enhancements
 
 - User authentication system
 - Comment functionality
@@ -122,3 +123,5 @@ For more inquires or support'
 - Real-time notifications
 
 Made with ❤️ by the Hybrids Group
+
+[Back to Top](#hybrids-news)
