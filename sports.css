@@ -348,7 +348,7 @@ footer :is(p .copyright a):hover {
   .section :is(.first-section, .second-section, .third-section) .col-two p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    line-clamp: 3;
     overflow: hidden;
   }
 
@@ -427,7 +427,7 @@ footer :is(p .copyright a):hover {
   .section :is(.first-section, .second-section, .third-section) .col-two p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+    line-clamp: 5;
     overflow: hidden;
   }
 }
