@@ -17,8 +17,6 @@
 }
 
 section {
-
-
   ::-webkit-scrollbar {
     width: 12px;
   }
@@ -50,8 +48,13 @@ header .mobile-nav {
   z-index: 10;
 }
 
-
-
+.active-nav {
+  border: 2px solid hsl(208, 66%, 52%);
+  padding: 10px;
+  transition: all ease-out 0.2s;
+  border-radius: 50px;
+  color: hsl(208, 66%, 52%);
+}
 
 .main {
   background: var(--background-primary);
