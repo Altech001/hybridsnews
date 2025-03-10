@@ -124,4 +124,4 @@ For more inquires or support'
 
 Made with ❤️ by the Hybrids Group
 
-[Back to Top](#hybrids-news)
+[🔝 Back to Top](#hybrids-news)
