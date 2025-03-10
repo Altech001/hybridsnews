@@ -47,7 +47,6 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
 └──hybridsnews/
     ├── README.md               # Project documentation
     ├── LICENSE                 # Apache License 2.0
-    ├── campus-breeze.html      # Campus Breeze content
     ├── index.css               # Main stylesheet
     ├── index.html              # Main HTML file
     ├── page1.js                # JavaScript for interactivity
