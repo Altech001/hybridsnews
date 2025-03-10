@@ -1,5 +1,5 @@
 /* light theme colors */
-.light-theme{
+.light-theme {
   --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
   --action-primary: hsl(214, 32%, 91%);
@@ -12,18 +12,20 @@
 }
 
 
-*{
+* {
   background: var(--foreground-primary);
 }
-section{
 
-  
+section {
+
+
   ::-webkit-scrollbar {
     width: 12px;
   }
 }
+
 /* dark theme colors */
-.dark-theme{
+.dark-theme {
   --background-primary: hsl(218, 23%, 23%);
   --background-secondary: hsl(220, 26%, 14%);
   --action-primary: hsl(216, 15%, 52%);
@@ -34,6 +36,7 @@ section{
   --accent: hsl(208, 66%, 52%);
   --red: hsl(359, 96%, 47%);
 }
+
 header .mobile-nav {
   position: fixed;
   inset: 0;
@@ -55,7 +58,7 @@ header .mobile-nav {
   padding: var(--py) 0;
 }
 
-.menu_Links{
+.menu_Links {
   position: sticky;
   background: #fff;
   /* top: 100; */
@@ -63,7 +66,8 @@ header .mobile-nav {
   z-index: 2;
   box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.09);
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -77,7 +81,7 @@ header .mobile-nav {
   z-index: 5;
 }
 
-section, .sections{
+section, .sections {
   position: sticky;
   z-index: 0;
 }
@@ -102,21 +106,24 @@ section, .sections{
   list-style: none;
   z-index: -1;
 }
+
 header a, ul {
   color: hsl(214, 20%, 69%);
 }
-header a, ul li:hover{
+
+header a, ul li:hover {
   color: hsl(208, 66%, 52%);
 }
-header a, ul li > .in-active{
+
+header a, ul li>.in-active {
   border: none;
 }
 
-body{
+body {
   color: hsl(218, 12%, 23%);
   background: black;
   position: relative;
-  
+
 }
 
 .menu_Links ul li {
@@ -167,11 +174,13 @@ body{
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
-.sections > section {
+
+.sections>section {
   text-align: center;
   width: 100%;
   height: 100%;
@@ -181,7 +190,7 @@ body{
   scroll-snap-type: mandatory;
 }
 
-section .blog-content-wrapper a{
+section .blog-content-wrapper a {
   position: relative;
   color: hsl(0, 0%, 23%);
 }
