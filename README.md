@@ -35,28 +35,27 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
    ```bash
    git clone https://github.com/your-username/hybrids-news.git
    ```
-   
 2. Navigate to the project directory:
-    ```bash
-    cd hybrids-news
-    ```
+   ```bash
+   cd hybrids-news
+   ```
 3. Open `index.html` in your browser to view the application.
 
 ## 📂Project Structure
 
 ```
 └──hybridsnews/
-    ├── README.md          # Project documentation
-    ├── LICENSE            # Apache License 2.0
-    ├── index.css          # Main stylesheet
-    ├── index.html         # Main HTML file
-    ├── page1.js           # JavaScript for interactivity
-    ├── politics.css       # Styles for politics page
-    ├── politics.html      # Politics page content
-    ├── script.js          # Additional JavaScript
-    ├── sports.css         # Styles for sports page
-    ├── sports.html        # Sports page content
-    └── images/            # Assets directory
+    ├── README.md               # Project documentation
+    ├── LICENSE                 # Apache License 2.0
+    ├── index.css               # Main stylesheet
+    ├── index.html              # Main HTML file
+    ├── page1.js                # JavaScript for interactivity
+    ├── politics.css            # Styles for politics page
+    ├── politics.html           # Politics page content
+    ├── script.js               # Additional JavaScript
+    ├── sports.css              # Styles for sports page
+    ├── sports.html             # Sports page content
+    └── images/                 # Assets directory
 ```
 
 ## 💻Usage
@@ -72,30 +71,33 @@ We welcome contributions to improve Hybrids News! To contribute:
 1. Fork the repository.
 
 2. **Clone the repository:**
-    ```bash
-    git clone https://github.com/Altech001/hybridsnews.git
-    ```
+
+   ```bash
+   git clone https://github.com/Altech001/hybridsnews.git
+   ```
 
 3. **Navigate to the project directory:**
-    ```bash
-    cd hybridsnews/
-    ```
-    
+   ```bash
+   cd hybridsnews/
+   ```
 4. **Create a new branch:**
-    ```bash
-    git checkout -b feature-name
-    ```
+
+   ```bash
+   git checkout -b feature-name
+   ```
 
 5. **Make your changes and commit them:**
-    ```bash
-    git add .
-    git commit -m "Add: Brief description of your changes"
-    ```
+
+   ```bash
+   git add .
+   git commit -m "Add: Brief description of your changes"
+   ```
 
 6. **Push your branch:**
-    ```bash
-    git push -u origin feature-name
-    ```
+
+   ```bash
+   git push -u origin feature-name
+   ```
 
 7. Open a pull request and describe the changes you made.
 
@@ -112,6 +114,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](./LICEN
 ## 🆘Support
 
 For more inquires or support'
+
 - Create an [Issue](https://github.com/Altech001/hybridsnews/issues)
 
 ## 🎯Future Enhancements
@@ -124,4 +127,4 @@ For more inquires or support'
 
 Made with ❤️ by the Hybrids Group
 
-[Back to Top](#hybrids-news)
+[🔝 Back to Top](#hybrids-news)

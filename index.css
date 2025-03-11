@@ -344,11 +344,11 @@ header .btn-group {
 
 /* HERO SECTION */
 
-.hero .left{
+.hero .left {
   display: none;
 }
 
-.hero .right{
+.hero .right {
   display: flex;
   align-self: center;
   align-items: center;
@@ -575,7 +575,8 @@ footer .wrapper {
 .footer-link {
   color: var(--foreground-secondary);
 }
-footer :where(input){
+
+footer :where(input) {
   border: none;
   padding: 10px;
   font-weight: 800;
@@ -587,13 +588,14 @@ footer :where(input){
 .footer-link:hover {
   color: var(--accent);
 }
-.footer-text1{
+
+.footer-text1 {
   display: flex;
   flex-direction: column;
   color: var(--foreground-secondary);
   text-align: center;
- justify-content: center;
- margin-inline: calc(50%,-50%);
+  justify-content: center;
+  margin-inline: calc(50%, -50%);
 }
 
 .copyright {
@@ -628,7 +630,7 @@ footer :where(input){
     height: 15px;
   }
 
-  .hero .left{
+  .hero .left {
     display: none;
   }
 
@@ -677,10 +679,11 @@ footer :where(input){
     padding: 30px 0;
   }
 
-  .hero .left{
+  .hero .left {
     display: none;
   }
-  .hero .right{
+
+  .hero .right {
     align-self: center;
   }
 
@@ -852,7 +855,7 @@ footer :where(input){
   /* HERO */
   .hero {
     position: relative;
-    background:var(--background-primary) ;
+    background: var(--background-primary);
     text-align: left;
   }
 
@@ -868,26 +871,28 @@ footer :where(input){
     justify-content: start;
     gap: 30px;
   }
-  .hero .left{
-    top:1px;
+
+  .hero .left {
+    top: 1px;
     display: flex;
     position: relative;
     justify-content: center;
     min-width: 630px;
     min-height: 400px;
     max-height: max-content;
-    overflow:auto;
+    overflow: auto;
     scroll-snap-type: mandatory;
     background: var(--background-primary);
     align-items: center;
     border-radius: 5px;
-    
+
   }
-  ::-webkit-scrollbar{
+
+  ::-webkit-scrollbar {
     display: none;
   }
-  
-  .hero .left .boxcard{
+
+  .hero .left .boxcard {
     position: absolute;
     display: flex;
     padding: 5px;
@@ -898,7 +903,7 @@ footer :where(input){
     border-radius: 5px;
   }
 
-  .boxcard .card1 img{
+  .boxcard .card1 img {
     width: 250px;
     margin: 5px;
     border-radius: 10px;
@@ -913,7 +918,7 @@ footer :where(input){
     align-items: center;
   }
 
-  .hero .right h1{
+  .hero .right h1 {
     font-family: "Inter", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--background-secondary);
   }
