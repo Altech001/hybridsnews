@@ -72,7 +72,7 @@ HybridsNews is a dynamic website showcasing campus blogs, featuring updates on p
 
 We welcome contributions to improve Hybrids News! To contribute:
 
-1. Fork the repository.
+1. **Fork the repository.**
 
 2. **Clone the repository:**
 
@@ -87,7 +87,7 @@ We welcome contributions to improve Hybrids News! To contribute:
 4. **Create a new branch:**
 
    ```bash
-   git checkout -b feature-name
+   git checkout -b feature/feature-name
    ```
 
 5. **Make your changes and commit them:**
@@ -100,10 +100,10 @@ We welcome contributions to improve Hybrids News! To contribute:
 6. **Push your branch:**
 
    ```bash
-   git push -u origin feature-name
+   git push -u origin feature/feature-name
    ```
 
-7. Open a pull request and describe the changes you made.
+7. **Open a pull request and describe the changes you made.**
 
 ## License
 
