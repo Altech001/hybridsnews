@@ -1,5 +1,9 @@
 # Hybrids News
 
+[![HTML](https://img.shields.io/badge/HTML-5-red.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS) &nbsp;
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 HybridsNews is a dynamic website showcasing campus blogs, featuring updates on politics, sports, events, and more. It is a course project developed by the Hybrids Group, designed to provide a vibrant platform for students to stay informed and connected.
 
 ## 📋Table of Contents
