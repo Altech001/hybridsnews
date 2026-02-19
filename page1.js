@@ -1,22 +1,24 @@
-let menu_lis = document.querySelectorAll(".menu_Links ul li");
+"use strict";
 
-menu_lis.forEach((li) => {
-  li.addEventListener("click", (e) => {
-    document
-      .querySelectorAll(".menu_Links ul li.active")
-      .forEach((activeEle) => {
-        activeEle.classList.remove("active");
-      });
+/**
+ * Tab Switching Logic
+ */
+const tabBtns = document.querySelectorAll(".tab-btn");
+const tabContents = document.querySelectorAll(".tab-content");
 
-    e.target.classList.add("active");
+tabBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    const targetTab = btn.getAttribute("data-tab");
 
-    document.querySelectorAll(".sections > section").forEach((section) => {
-      if (e.target.textContent === section.dataset.section) {
-        document.querySelectorAll(".sections .visible").forEach((ele) => {
-          ele.classList.remove("visible");
-        });
-        section.classList.add("visible");
-      }
-    });
+    // Remove active class from all buttons and contents
+    tabBtns.forEach(b => b.classList.remove("active"));
+    tabContents.forEach(c => c.classList.remove("active"));
+
+    // Add active class to current button and target content
+    btn.classList.add("active");
+    const targetContent = document.getElementById(targetTab);
+    if (targetContent) {
+      targetContent.classList.add("active");
+    }
   });
 });
